@@ -5,6 +5,7 @@ public class Main {
             System.err.println("arguments must be [action] [topic] ([message])");
             System.err.println("ProducerExample : produce topic_userX Hello!");
             System.err.println("ConsumerExample : consume topic_userX");
+            System.exit(1);
         }
         String action = args[0];
         String topic = args[1];
